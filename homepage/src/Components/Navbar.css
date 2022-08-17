@@ -113,9 +113,19 @@
 .game {
    
     display: flex;
-   
-    
+   animation: rotation 2s infinite linear;
+
+   @keyframes rotation { 
+    from { 
+        -ms-transform: rotate(0deg); 
+    } to { 
+        -ms-transform: rotate(360deg); 
+    }
 }
+}
+
+
+    
 .site {
     padding:0.5rem;
     list-style: none;
