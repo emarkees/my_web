@@ -1,0 +1,9 @@
+.body {
+  height: 100vh;
+}
+
+.main {
+  padding: 16px;
+margin-top: 10px;
+height: 1500px; /* Used in this example to enable scrolling */
+} 

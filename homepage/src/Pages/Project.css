@@ -1,0 +1,15 @@
+.title-header::after {
+    margin: 15rem 20rem;
+    background: rgb(243, 222, 222);
+    padding: 0rem 2rem;
+    width: max-content;
+    border: 1rem;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    opacity: 80%;
+    flex-direction: row;
+    align-items: center;
+}
+
+

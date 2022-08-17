@@ -1,0 +1,141 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 243, 243);
+    position: fixed;
+    width: 100%;
+    
+}
+.nav-header {
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+    background: rgb(66, 212, 144);
+    padding: 10rem 10rem;
+    align-items: center;
+    
+}
+.title-img {
+    display: flex;
+    flex-direction: column;
+    background: rgb(165, 224, 26);
+    align-items: center;
+    float: center;
+    justify-items: center;
+    padding: 1.5rem 5rem;
+    width: 45%;
+}
+
+.header-li {
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.h2 {
+    display: block;
+}
+
+.p {
+    display: block;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    border-radius: 0.9rem;  
+    background: rgb(230, 133, 209);
+    border-color: rgb(89, 16, 156); 
+
+}
+
+.nav-title, .dot {
+    display:flex;
+    text-decoration: none;
+    row-gap: 2rem;
+    padding: 0.5rem;
+    border: 2rem; 
+}
+
+.nav-title {
+    margin: 0.5rem;
+    float: right;
+}
+.dot {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;  
+    justify-content: flex-start;
+}
+
+
+.title-header {
+    padding: 1rem 3rem;
+    display: flex;
+    float: left;
+    margin: 0;
+    background: rgb(39, 184, 164);
+    width: fit-content;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.bd-container {
+    display: flex;
+    position: relative;
+    font: 1em sans-serif;
+    word-spacing: normal;
+    text-align: justify;
+    justify-content: left;
+    padding: 0.2rem 2rem;
+    background: rgba(162, 188, 238, 0.89);
+    height: 10vh;
+    width: 50%;
+    float: center;
+
+}
+.profile-pix {
+    max-height: fit-content;
+    max-width: 100px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+
+.game {
+   
+    display: flex;
+   
+    
+}
+.site {
+    padding:0.5rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    
+}
+
+.fa-twitter {  
+    color: rgb(129, 162, 235);
+    text-decoration: none;    
+}
+.fa-facebook {  
+    color: rgb(129, 162, 235);
+    text-decoration: none;
+}
+
+.fa-github {  
+    color: rgb(129, 162, 235);
+    text-decoration: none;
+}
